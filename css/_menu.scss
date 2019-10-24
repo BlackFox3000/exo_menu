@@ -1,0 +1,33 @@
+.menu{
+  background: wheat;
+  ul{
+    &:hover=darksalmon;
+    list-style-type:none;
+    flex-direction:column;
+    display: flex;
+    .fruit{
+      display: none;
+    }
+  }
+}
+
+img{
+  width: 100%;
+}
+
+.inner{
+  width: 100%;
+}
+
+
+.titre{
+  background-color: burlywood;
+  font-family: Roboto;
+  font-size: 200%;
+  color: lawngreen;
+
+  display: flex;
+  justify-content: center;
+
+
+}
